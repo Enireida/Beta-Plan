@@ -1,0 +1,458 @@
+tml, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+.nav1{
+    background-color: #34373a;
+    color: white;
+    height: 40px;
+    
+}
+
+.nav1 ul li{
+    list-style-type: none;
+    border-right: 1px solid #101010;
+    border-bottom: #070707;
+    text-align: center;
+    flex: 1;
+}
+
+.Yellow{
+    border-top: 5pxpx solid #fad21e;
+    width: 170px;
+    padding-top: 12px;
+}
+.Pink{
+    border-top: 6px solid #8f3474;
+    width: 170px;
+    padding-top: 12px; 
+}
+.Green{
+    border-top: 6px solid #0af470;
+    width: 170px;
+    padding-top: 12px;
+}
+.Grey{
+    border-top: 6px solid #706e5e;
+    width: 170px;
+    padding-top: 12px;
+}
+.Purple{
+    border-top: 6px solid #d33bd5;
+    width: 170px;
+    padding-top: 12px;
+}
+.Red{
+    border-top: 6px solid #d23636;
+    width: 170px;
+    padding-top: 12px;
+}
+
+.dflex{
+    display: flex;
+}
+
+.justifyContentBetween{
+    justify-content: space-between;
+}
+
+.alignItemsCenter{
+    align-items: center;
+}
+
+.textCenter{
+    text-align: center;
+}
+
+
+.landscape{
+    width: 100%;
+    height: 80px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    justify-content: space-around;
+
+}
+.landscapecol{
+    background-color: #2b5b84;
+
+}
+
+.logo{
+    width: 40%;
+    padding-left: 190px;
+}
+
+.searchpart{
+    margin-right: 190px;
+    padding: .35em .2em .3em;
+}
+
+.DonateButton{
+    background-color: #ffd343;
+    border: 1px solid #dca900;
+    border-radius: 5px;
+    width: 90px;
+    height: 40px;
+    margin-right: 10px;
+    
+}
+
+.SearchBar{
+    background-color: #04375b;
+    height: 60px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 5px;
+}
+.img2{
+    width: 30px;
+    height: 30px;
+
+}
+.searchInput{
+    height: 30px;
+    width: 250px;
+    margin-left: 10px;
+}
+
+.GoButton{
+    border-radius: 5px;
+    background-color: #3475a3;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 8px;
+}
+
+.SocializeButton{
+    color: rgb(213, 209, 209);
+    background-color: transparent;
+    border: none;
+    padding: 10px;
+}
+
+
+.nav2{
+    background-color: #08518d;
+    color: white;
+    margin-left: 200px;
+    margin-right: 200px;
+    border-radius: 5px;
+    box-shadow: 2px 2px rgb(47, 46, 46);
+    margin-bottom: 0px;
+
+}
+
+.nav2 ul li{
+    list-style-type: none;
+    padding: 20px 0px 20px 0px;
+    border-right: 1px solid #c6c2c2;
+    flex: 1;
+    text-align: center;
+
+}
+
+
+
+
+
+.DisplayScr{
+    justify-content: center;
+}
+.script{
+    background-color: #1f2020bf;
+    color: white;
+    font-family: 'Roboto Mono', monospace;
+    text-align: left;
+    padding: 2px 80px 60px 20px;
+}
+.greentextinbox{
+    color: #10b457;
+}
+.script p {
+    margin-bottom: 10px;
+    margin-top: 15px;
+}
+
+.info{
+    background-color: #04375b;
+    color: white;
+    font-family: 'Roboto Mono', monospace;
+    text-align: left;
+    padding: 20px 50px 60px 20px;
+}
+
+.information p {
+    margin-bottom: 10px;
+    margin-top: 15px;
+}
+
+.YellowPart{
+    color: yellow;
+}
+
+.infotextCenter{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 23px;
+    font-family: 'Roboto Mono', monospace;
+    color: rgb(201, 193, 193);
+}
+.ButtonDisplay{
+    border-radius: 5xp;
+    background-color: #3475a3;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 8px;
+    align-items: center;
+
+}
+
+
+.firstBox{
+    background-color: white;
+    padding-top: 5px;
+    padding-left: 148px;
+    padding-right: 129px;
+    margin: 12px;
+    column-gap: 1px;
+    justify-content: center
+}
+
+.row1box{
+    border-top: 6px solid #69abdb;
+    width: 25%;
+    margin: 10px;
+
+}
+.row1box h3{
+    font-size: 26px;
+    padding-top: 15px;
+    padding-bottom: 10px;
+}
+.row1box p{
+    font-size: 17px;
+    padding-bottom: 20px;
+    line-height: 22px;
+}
+.row1box h6{
+    font-size: 16px;
+    color: #69abdb;
+    padding-bottom: 20px;
+}
+
+.secondBox{
+    background-color: white;
+    padding-top: 5px;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin: 20px;
+    column-gap: 40px;
+    justify-content: center;
+    border-top: 20px;
+    border-top-color: #08518d;
+}
+
+.row2box{
+    border-top: 6px solid #69abdb;
+    width: 40%;
+
+}
+.row2box h3{
+    font-size: 26px;
+    padding-top: 15px;
+    padding-bottom: 10px;
+}
+
+
+.data{
+    font-size: 17px;
+    padding-bottom: 20px;
+    line-height: 30px;
+
+}
+
+
+.inside{
+    font-size: 17px;
+    padding-bottom: 20px;
+    line-height: 30px;
+    color: #69abdb;
+    padding-left: 40px;
+}
+
+
+.thirdBox{
+    background-color: white;
+    padding-top: 5px;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin: 20px;
+    column-gap: 40px;
+    justify-content: center;
+
+}
+
+.row3box{
+    border-top: 6px solid #69abdb;
+    width: 40%;
+
+}
+.row3box h3{
+    font-size: 26px;
+    padding-top: 15px;
+    padding-bottom: 10px;
+}
+
+.quote{
+    background-color: #e5c949;
+    text-align: left;
+    padding: 30px;
+    border-radius: 5%;
+}
+
+
+.useButtons{
+    list-style: none;
+}
+
+.proposalQuote{
+    background-color: #caccce;
+    color: #717273;
+    text-align: left;
+    padding: 35px;
+    margin-left: 180px;
+    margin-right: 180px;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+.footerend{
+    border-top: 1px solid #111;
+    background-color: #2b5b84;    ;
+    color: #83bdf1;
+    list-style: none;
+    padding: 16px;
+}
+.containerFooterend {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: center; 
+    width: 100%;
+    padding-right: 7px;
+}
+.containerFooterend ul li{
+padding-bottom: 20px;
+    padding-right: 30px;
+}
+.underline{
+    text-decoration: underline;
+}
+
+.moreButton{
+    background-color: transparent;
+    padding-left: 300px;
+    display: inline;
+    border: none;
+    color: gray;
+}
+.becMember{
+    background-color: #2b5b84;
+    text-align: left;
+    padding: 35px;
+    margin-left: 180px;
+    margin-right: 180px;
+    margin-bottom: 20px;
+    line-height: 25px;
+    font-size: 18px;
+}
+.becMember h4{
+    padding-bottom: 20px;
+}
+.python2 img {
+
+    width: 150px;
+}
+.becMemberButton{
+    border-radius: 5px;
+    background-color: #dca900;
+    border-top: 1px solid #dca900;
+    border-right: 1px solid #dca900;
+    border-bottom: 1px solid #dca900;
+    border-left: 1px solid #dca900;
+    padding: 10px;
+    margin-top: 10px;
+    
+}
+
+
+
+/* FOOTER1 */
+.f1{
+    list-style: none;
+    background-color: #d1cbcb;
+    padding-top: 25px;
+    padding-bottom: 30px;
+    padding-left: 150px;
+    padding-right: 150px;
+}
+
+.h4{
+    color: #2d0eab;
+    margin: 17,5px 0px 0px;
+    line-height: 40px;
+}
+
+.subnav{
+    color: grey;
+    line-height: 30px;
+    
+}
+
+
